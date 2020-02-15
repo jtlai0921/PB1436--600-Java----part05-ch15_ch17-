@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book:books xmlns:book="http://www.mingrisoft.com"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.mingrisoft.com books.xsd">
+	<book:book>
+		<book:name>《C#從入門到精通(第2版)》</book:name>
+		<book:publisher>清華大學出版社</book:publisher>
+		<book:company>明日科技</book:company>
+		<book:author>王小科</book:author>
+		<book:ISBN>9787302226628</book:ISBN>
+		<book:price unit="yuan" unitType="RMB">69.80</book:price>
+		<book:url>http://www.mingribook.com/bookinfo.php?id=227</book:url>
+	</book:book>
+	<book:book>
+		<book:name>《JavaScript開發技術大全》</book:name>
+		<book:publisher>人民郵電出版社</book:publisher>
+		<book:company>明日科技</book:company>
+		<book:author>梁冰</book:author>
+		<book:ISBN>9787115179708</book:ISBN>
+		<book:price unit="yuan" unitType="RMB">65.00</book:price>
+		<book:url>http://www.mingribook.com/bookinfo.php?id=138</book:url>
+	</book:book>
+</book:books>
+	

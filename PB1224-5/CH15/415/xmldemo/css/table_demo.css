@@ -1,0 +1,22 @@
+book 
+{
+    display: block;
+	border-width: 1px;
+	border-color: #930;
+	border-style:outset;
+	background-color: #CCC
+}
+name
+{
+	display: block;
+	text-align: center;
+}
+publisher,company,author,ISBN,price
+{
+	text-align: center;
+	width: 18%
+}
+url
+{
+	display: block;
+}

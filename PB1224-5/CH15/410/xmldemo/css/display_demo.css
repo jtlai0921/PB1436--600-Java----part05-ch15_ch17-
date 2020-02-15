@@ -1,0 +1,16 @@
+
+book 
+{
+    display: block;
+}
+
+name 
+{
+    display: block;
+}
+
+publisher,company,author,ISBN,price,url
+{
+    display: inline;
+}
+

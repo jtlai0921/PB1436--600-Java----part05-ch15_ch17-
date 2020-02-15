@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="value-of_demo.xsl"?>
+<books>
+	<book>
+		<name>《C#從入門到精通(第2版)》</name>
+		<publisher>清華大學出版社</publisher>
+		<company>明日科技</company>
+		<author>王小科</author>
+		<ISBN>9787302226628</ISBN>
+		<price unit="RBM" >69.80</price>
+		<url><![CDATA[http://www.mingribook.com/bookinfo.php?id=227&sid=4]]></url>
+	</book>
+</books>

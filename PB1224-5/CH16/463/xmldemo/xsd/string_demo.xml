@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<bo:book xmlns:bo="http://www.mingrisoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.mingrisoft.com string_demo.xsd">
+
+	<bo:name>《C#從入門到精通(第2版)》</bo:name>
+	<bo:publisher>清華大學出版社</bo:publisher>
+	<bo:company>bo:明日科技有限責任公司</bo:company>
+	<bo:author>明日科技:王小科</bo:author>
+
+</bo:book>

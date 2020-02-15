@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT books (book+)>
+
+<!ELEMENT book    (name,publisher,company,author,ISBN,price,url,type)>
+
+<!ELEMENT name      (#PCDATA)>
+<!ELEMENT publisher    (#PCDATA)>
+<!ELEMENT company 	(#PCDATA)>
+<!ELEMENT author    (#PCDATA)>
+<!ELEMENT ISBN    (#PCDATA)>
+<!ELEMENT price    (#PCDATA)>
+<!ELEMENT url    (#PCDATA)>
+<!ELEMENT type    (#PCDATA)>
+
+<!ENTITY info "軟體專案師入門叢書" >

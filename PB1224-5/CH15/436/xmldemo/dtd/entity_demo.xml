@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE books SYSTEM "entity_demo.dtd">
+<books>
+
+	<book>
+		<name>《Java從入門到精通（第2版）》</name>
+		<publisher>清華大學出版社</publisher>
+		<company>明日科技</company>
+		<author>李鍾蔚</author>
+		<ISBN>9787302227465</ISBN>
+		<price>59.80</price>
+		<url><![CDATA[http://www.mingribook.com/bookinfo.php?id=222]]></url>
+		<type>&info;</type>
+	</book>
+</books>

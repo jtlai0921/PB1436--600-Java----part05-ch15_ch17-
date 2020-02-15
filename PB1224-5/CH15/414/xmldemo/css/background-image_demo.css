@@ -1,0 +1,21 @@
+
+book 
+{
+    display: block;
+}
+
+name 
+{
+    display: block;
+}
+
+publisher,company,author,ISBN,price,url
+{
+    display: inline;
+}
+pic
+{
+	background-image: url(background-image_demo.jpg);
+	width:153px;
+	height:193px;
+}

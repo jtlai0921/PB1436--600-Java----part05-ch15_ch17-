@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.mingrisoft.com" xmlns="http://www.mingrisoft.com"
+	elementFormDefault="qualified">
+
+	<xs:element name="book" type="bookType" />
+
+	<xs:complexType name="bookType">
+		<xs:sequence>
+			<xs:element name="name" type="xs:string" />
+			<xs:element name="publisher" type="xs:string" />
+			<xs:element name="company" type="xs:string" />
+			<xs:element name="author" type="xs:string" />
+			<xs:element name="ISBN" type="xs:string" />
+			<xs:element name="price">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:double">
+							<xs:attribute name="RMB" type="xs:string" use="required"></xs:attribute>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="url" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+
+</xs:schema>

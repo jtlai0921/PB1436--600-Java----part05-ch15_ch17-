@@ -1,0 +1,34 @@
+
+book 
+{
+    display: block;
+}
+
+name 
+{
+    display: block;
+}
+
+publisher
+{
+    display: block;
+}
+company,author,ISBN,price,url
+{
+	display: inline;
+}
+
+name 
+{
+	cursor:crosshair;
+}
+
+publisher 
+{
+	cursor:hand;
+}
+
+company,author,isbn,price,url 
+{
+	cursor:wait;
+}

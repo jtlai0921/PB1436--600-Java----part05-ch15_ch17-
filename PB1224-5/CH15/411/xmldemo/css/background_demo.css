@@ -1,0 +1,35 @@
+
+book 
+{
+    display: block;
+}
+
+name 
+{
+    display: block;
+}
+
+publisher,company,author,ISBN,price,url
+{
+    display: inline;
+}
+
+book 
+{
+	background-color: #3F0;
+}
+
+name 
+{
+	background-color: #1CC;
+}
+
+publisher 
+{
+	background-color: #CC9999;
+}
+
+company,author,isbn,price,url 
+{
+	background-color: #CCCCFF;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Insert title here</title>
+<style type="text/css">
+<!--
+#showError {
+	color: #F00;
+	font-size: 16px;
+}
+-->
+</style></head>
+<script type="text/javascript">
+function validateXML(filename){
+	var txt="";
+	if (window.ActiveXObject){
+		document.getElementById("showError").innerText ="";
+		var xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+	  	xmlDoc.async = false;
+	  	xmlDoc.validateOnParse= true;
+	  	xmlDoc.load(filename);
+
+	  	if(xmlDoc.parseError.errorCode!=0){
+	    	txt="Error Code: " + xmlDoc.parseError.errorCode + "\n";
+	    	txt=txt+"Error Reason: " + xmlDoc.parseError.reason ;
+	    	txt=txt+"Error Line: " + xmlDoc.parseError.line;
+	    }else{
+	    	txt="沒有錯誤";
+	    }
+		document.getElementById("showError").innerText = txt;
+	}else{
+	  		alert("此瀏覽器不支援驗證!");
+	}
+	
+}
+</script>
+<body>
+<center>
+<h2>透過DTD驗證XML檔案</h2>
+<p>
+<input id="xmlfile" type="text" />
+<input type="button" name="submit" value="驗 證" onClick="validateXML(document.getElementById('xmlfile').value);" />
+</p>
+</center>
+<div id="showError"></div>
+</body>
+</html>

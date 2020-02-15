@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.mingrisoft.com" xmlns="http://www.mingrisoft.com"
+	elementFormDefault="qualified">
+
+	<xs:element name="books">
+		<xs:complexType>
+			<xs:all>
+				<xs:element name="book" type="bookType" />
+			</xs:all>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:complexType name="baseBookType">
+		<xs:sequence>
+			<xs:element name="name" type="xs:string" />
+			<xs:element name="publisher" type="xs:string" />
+			<xs:element name="company" type="xs:string" />
+			<xs:element name="author" type="xs:string" />
+			<xs:element name="ISBN" type="xs:string" />
+			<xs:element name="price" type="xs:double" />
+			<xs:element name="url" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="bookType">
+		<xs:complexContent>
+			<xs:restriction base="baseBookType">
+				<xs:sequence>
+					<xs:element name="name" type="xs:string" />
+					<xs:element name="publisher" type="xs:string" />
+					<xs:element name="company" type="xs:string" fixed="明日科技" />
+					<xs:element name="author" type="xs:string" />
+					<xs:element name="ISBN" type="xs:string" />
+					<xs:element name="price" type="xs:double" />
+					<xs:element name="url" type="xs:string" />
+				</xs:sequence>
+			</xs:restriction>
+		</xs:complexContent>
+	</xs:complexType>
+
+</xs:schema>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.mingrisoft.com" xmlns="http://www.mingrisoft.com"
+	elementFormDefault="qualified">
+
+	<xs:annotation>
+		<xs:documentation>这是一个图书的数据结构，定义了图书的基本信息</xs:documentation>
+	</xs:annotation>
+
+</xs:schema>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT book (name,publisher,company,author,ISBN,price,url,(tel|phone))>
+<!ELEMENT name      (#PCDATA)>
+<!ELEMENT publisher    (#PCDATA)>
+<!ELEMENT company (#PCDATA)>
+<!ELEMENT author    (#PCDATA)>
+<!ELEMENT ISBN    (#PCDATA)>
+<!ELEMENT price    (#PCDATA)>
+<!ELEMENT url    (#PCDATA)>
+<!ELEMENT tel    (#PCDATA)>
+<!ELEMENT phone    (#PCDATA)>
+

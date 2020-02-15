@@ -1,0 +1,31 @@
+books 
+{
+	background-color: #FFFFFF;
+	width: 100%;
+}
+
+book 
+{
+    display: block;
+    margin-bottom: 25pt;
+    margin-left: 0;
+}
+
+name 
+{
+    color: #FF0000;
+    font-size: 20pt;
+}
+
+publisher 
+{
+    color: #3333FF;
+    font-size: 20pt;
+}
+
+company,author,isbn,price,url 
+{
+    display: block;
+    color: #000000;
+    margin-left: 20pt;
+}
